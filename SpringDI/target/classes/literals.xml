@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context" xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd"> <!-- bean definitions here -->
+<bean id="e1" class="org.tnsif.literals.Employee">
+	<constructor-arg name="empid" value="104"></constructor-arg>
+	<constructor-arg name="empname" value="Nikhil Tiwari"></constructor-arg>
+	<constructor-arg name="address" value="Delhi"></constructor-arg>
+	<constructor-arg name="salary" value="35000.00f"></constructor-arg>
+	
+	<!--property name="empid" value="101"></property>
+	<property name="empname" value="Abhinav Rawat"></property>
+	<property name="address" value="Pune"></property>
+	<property name="salary" value="45000.67f"></property-->
+</bean>
+
+<bean id="e2" class="org.tnsif.literals.Employee">
+	
+	<constructor-arg name="empid" value="103"></constructor-arg>
+	<constructor-arg name="empname" value="Ankita Yadav"></constructor-arg>
+	<constructor-arg name="address" value="Nashik"></constructor-arg>
+	<constructor-arg name="salary" value="25000.00f"></constructor-arg>
+	
+	<!--property name="empid" value="102"></property>
+	<property name="empname" value="Pratik Shinde"></property>
+	<property name="address" value="Mumbai"></property>
+	<property name="salary" value="32000.67f"></property-->
+
+</bean>
+</beans>
